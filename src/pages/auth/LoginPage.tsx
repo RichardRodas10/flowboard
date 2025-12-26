@@ -1,5 +1,5 @@
 import { LoginForm } from '@/features/auth/components/LoginForm'
-import { AuthHeader } from '@/shared/components/layout/Authheader'
+import { AuthHeader } from '@/shared/components/layout/AuthHeader'
 
 export function LoginPage() {
   return (

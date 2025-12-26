@@ -1,5 +1,5 @@
 import { RegisterForm } from '@/features/auth/components/RegisterForm'
-import { AuthHeader } from '@/shared/components/layout/Authheader'
+import { AuthHeader } from '@/shared/components/layout/AuthHeader'
 
 export function RegisterPage() {
   return (
