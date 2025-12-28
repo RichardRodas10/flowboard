@@ -7,6 +7,7 @@ import { RegisterPage } from '@/pages/auth/RegisterPage'
 import { ForgotPasswordPage } from '@/pages/auth/ForgotPasswordPage'
 import { ResetPasswordPage } from '@/pages/auth/ResetPasswordPage'
 import { DashboardPage } from '@/pages/dashboard/DashboardPage'
+import { WorkspacesPage } from '@/pages/workspaces/WorkspacesPage'
 import { LoadingSpinner } from '@/shared/components/ui/LoadingSpinner'
 
 // Protected Route Component
@@ -120,6 +121,14 @@ function App() {
           element={
             <ProtectedRoute>
               <DashboardPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/workspaces"
+          element={
+            <ProtectedRoute>
+              <WorkspacesPage />
             </ProtectedRoute>
           }
         />
